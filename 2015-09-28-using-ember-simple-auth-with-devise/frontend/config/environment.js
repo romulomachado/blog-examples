@@ -24,7 +24,6 @@ module.exports = function(environment) {
   };
 
   ENV['ember-simple-auth'] = {
-    store: 'session-store:local-storage',
     routeAfterAuthentication: 'dashboard',
     routeIfAlreadyAuthenticated: 'dashboard'
   }
